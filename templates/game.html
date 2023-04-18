@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    This is the game!
+    <form action="/madlib">
+        <section>
+        <label for="name">Please enter a name of a person</label><br>
+        <input type="text" name="person" id="name">
+    
+    </section>
+    <section>
+        <p>Please pick a color:</p>
+        <select name="color" id="color_choice">
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="orange">Orange</option>
+            <option value="red">Red</option>
+        </select>
+    </section>
+    <section>
+        <p>Please pick a noun:</p>
+        <input type="radio" name="noun_choice" value="plant" id="plant">
+        <label for="plant">Plant</label>
+        <input type="radio" name="noun_choice" value="plane" id="plane">
+        <label for="plane">Plane</label><br>
+        <input type="radio" name="noun_choice" value="puppy" id="puppy">
+        <label for="puppy">Puppy</label><br>
+    </section>
+    <section>
+        <p>Please pick an adjective:</p>
+        <input type="checkbox" name="adj_choice" value="kind" id="kind">
+        <label for="kind">Kind</label>
+        <input type="checkbox" name="adj_choice" value="rapid" id="rapid">
+        <label for="rapid">Rapid</label><br>
+        <input type="checkbox" name="adj_choice" value="tall" id="tall">
+        <label for="tall">Tall</label><br>
+    </section>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
